@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Tombol Count Down (Atas) -->
+    <Button
+        android:id="@+id/btnCountDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count Down"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#98C93C" />
+
+    <!-- Kotak Oranye Penampil Angka (Tengah) -->
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginVertical="12dp"
+        android:background="#E85D1A"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#424242"
+        android:textSize="96sp"
+        android:textStyle="italic" />
+
+    <!-- Tombol Count Up (Bawah) -->
+    <Button
+        android:id="@+id/btnCountUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count Up"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#98C93C" />
+
+</LinearLayout>
